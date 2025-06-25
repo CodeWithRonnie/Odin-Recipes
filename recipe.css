@@ -2,9 +2,10 @@
 }
 
 body{
+    color:#333333;
     margin: 0;
     padding: 0;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 /** Home Page**/
@@ -15,7 +16,7 @@ h1, h3{
 .main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 10px;
     margin: 20px;
     
@@ -23,7 +24,7 @@ h1, h3{
 
 .recipe{
     display: block;
-    width: 25%;
+    width: 30%;
     justify-content: center;
     border:none;
     border-radius: 14px;
@@ -86,10 +87,10 @@ h1, h3{
  /**Cheesy Mince & Mac**/
  .one{
     text-align: center;
-    color: rgb(18, 17, 17);
+    color: #333333;
  }
 .mac-cheese{
-    width: 90%;
+    width: 70%;
     display: block;
     margin: 0 auto;
 }
@@ -117,43 +118,36 @@ hr{
     width: 100%;
 }
 
-
-.ingredients{
-    color: rgb(18, 17, 17);
-    margin-left: 3%;
-
-}
-
-
 ul li{
     display: block;
     margin: 0 auto;
-    font-size: 18px;
-    color: rgb(18, 17, 17);
+    font-size: 15px;
     text-decoration: none;
    
 }
+ .ingredients{
+    margin-left: 3%;
+ }
 
 .recipe-container-2, .method{
     display: block;
     margin: 0 auto;
     text-align: center;
-     font-size: 18px;
+     font-size: 15px;
      margin: 20px;
      padding: 20px;
-     color: rgb(18, 17, 17);
+     color: red;
      width: 50%;
+     height: auto;
      border-radius: 12px;
      border: none;
-     box-shadow: 1px 4px 5px;
+     box-shadow: 0 10px 20px rgb(0, 0, 0, 0.1);
 }
 
 
- .extras{
-    margin-left: 3%;
- }
 
  .recipe-tag{
     margin-left: 3%;
+    color: #333333;
  }
 
